@@ -1,12 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dark mode</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    
+    <header>
+        <h2>Light and Dark</h2>
+        <div>
+            <input type="checkbox" name="change-theme" id="change-treme"/>
+            <i class="bi bi-sun"></i>
+            <i class="bi bi-moon"></i>
+        </div>
+    </header>
+    <main>
+        <div class="card">
+            <div class="card-img">
+                <img src="img/tenis.png" alt="Tênis Nike">
+            </div>
+            <div class="card details">
+                <h2 >Tênis Nike</h2>
+                <p class="subtitle">Execelente para corridas</p>
+                <p class="descript">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed ad consequatur facilis cupiditate architecto. Unde, nam, ad quibusdam mollitia reprehenderit alias at, adipisci impedit quaerat similique ut deserunt tenetur quod.
+                </p>
+                <div class="price-container">
+                    <span class="price">R$: 299.90 </span>
+                    <button class="btn">Comprar</button>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
